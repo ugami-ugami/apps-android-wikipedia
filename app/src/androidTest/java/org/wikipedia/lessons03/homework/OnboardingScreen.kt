@@ -7,6 +7,12 @@ import com.google.android.material.tabs.TabLayout
 import org.wikipedia.R
 import org.wikipedia.views.AppTextView
 
+val skipButton = listOf(
+    MaterialButton::class.java,
+    R.id.fragment_onboarding_skip_button,
+    R.string.onboarding_skip
+)
+
 val zeroPageLanguageOptionLabel = listOf(
     AppTextView::class.java,
     R.id.option_label,
